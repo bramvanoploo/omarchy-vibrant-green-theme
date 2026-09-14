@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "preset": "glass-blur",
+  "preset_revision": 9,
+  "customized": {
+    "animations": false,
+    "bar": false,
+    "shell": false,
+    "terminal": false,
+    "window": false
+  }
+}

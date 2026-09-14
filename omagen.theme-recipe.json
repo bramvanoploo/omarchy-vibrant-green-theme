@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "kind": "omagen.theme.recipe",
+  "theme_name": "Vibrant Green",
+  "source_theme": "Vibrant Green",
+  "source_kind": "user",
+  "source_fingerprint": "e2a58086035e72b774a701aae79493b4f4ee9453c737ecd6ae673353b7109883",
+  "managed_scopes": [
+    "shell-bar",
+    "window-motion"
+  ],
+  "palette": {
+    "Mode": "dark",
+    "Accent": "#9ac400",
+    "Selection": "#212d00",
+    "Muted": "#5d5b55",
+    "Background": "#040600",
+    "DarkBackground": "#020100",
+    "DarkerBackground": "#000000",
+    "LighterBackground": "#181202",
+    "Foreground": "#cde1aa",
+    "DarkForeground": "#728157",
+    "LightForeground": "#e4f2cc",
+    "BrightForeground": "#f3fde4",
+    "Red": "#98c419",
+    "Yellow": "#99c423",
+    "Orange": "#97c40a",
+    "Green": "#98c50c",
+    "Cyan": "#596ebe",
+    "Blue": "#586ec0",
+    "Magenta": "#5a6ebc",
+    "Brown": "#607e00",
+    "BrightRed": "#aee018",
+    "BrightYellow": "#ade003",
+    "BrightGreen": "#afe024",
+    "BrightCyan": "#6e88e6",
+    "BrightBlue": "#6d88e8",
+    "BrightMagenta": "#6f88e4"
+  },
+  "shell": {
+    "preset": "glass",
+    "surface": "layered",
+    "detail": "edge",
+    "tooltip": "native",
+    "notifications": "native"
+  },
+  "desktop": {
+    "border_style": "solid",
+    "border_size": 2,
+    "border_size_mode": "fixed",
+    "border_speed": 36,
+    "shape": "native",
+    "spacing": "compact",
+    "depth": "shadow",
+    "window_opacity": 95,
+    "active_style": "frosted_light",
+    "inactive_style": "frosted_rich"
+  },
+  "bar": {
+    "surface": "native",
+    "density": "compact",
+    "attention": "semantic",
+    "form": "continuous",
+    "visibility": "native",
+    "profile": {
+      "schema_version": 1,
+      "ownership": "overlay",
+      "implementation": "replacement",
+      "bar": {
+        "id": "pretty.omagen.bar"
+      },
+      "behavior": {
+        "form": "floating",
+        "visibility": "always",
+        "reveal": "edge",
+        "expansion": "none",
+        "workspace": "native"
+      }
+    },
+    "spec": {
+      "version": 2,
+      "preset": "float",
+      "engine": "omagen",
+      "topology": "floating",
+      "position": "top",
+      "surface": {
+        "treatment": "glass",
+        "role": "background",
+        "opacity": 0.72,
+        "blur": 1,
+        "border_role": "foreground",
+        "border_opacity": 0.3,
+        "border_width": 1,
+        "shadow": "raised"
+      },
+      "geometry": {
+        "density": "compact",
+        "thickness": 0,
+        "edge_offset": 8,
+        "outer_margin": 8,
+        "inner_padding": 0,
+        "section_gap": 8,
+        "widget_gap": 0,
+        "radius": 14,
+        "length_mode": "full",
+        "length_value": 0,
+        "alignment": "center"
+      },
+      "attention": {
+        "mode": "semantic"
+      },
+      "behavior": {
+        "visibility": "always",
+        "exclusive_zone": "reserve",
+        "hover_expand": false,
+        "hide_delay_ms": 5000,
+        "reveal_delay_ms": 50,
+        "edge_sensor": 3,
+        "keep_visible_while_popup_open": true
+      },
+      "regions": {
+        "left": {
+          "mode": "native"
+        },
+        "center": {
+          "mode": "native"
+        },
+        "right": {
+          "mode": "native"
+        }
+      },
+      "workspace": {
+        "mode": "native"
+      },
+      "clock": {
+        "style": "lcd"
+      },
+      "dock": {
+        "closed": "ellipsis",
+        "glyph": "✦"
+      },
+      "motion": {
+        "preset": "native",
+        "duration_ms": 180,
+        "easing": "out_cubic"
+      }
+    }
+  },
+  "animations": {
+    "version": 1,
+    "preset": "custom",
+    "window": "cinematic",
+    "window_open": "slide",
+    "window_close": "slide",
+    "window_move": "smooth",
+    "window_amount": 76,
+    "window_opacity": 100,
+    "window_speed": 1,
+    "workspace": "slidefade",
+    "workspace_axis": "horizontal",
+    "workspace_travel": 28,
+    "special_workspace": "slidefade",
+    "focus": "smooth",
+    "layers": "slide",
+    "curve": "precision",
+    "border": "native",
+    "border_speed": 36,
+    "glitch": "none",
+    "reduced_motion": false
+  },
+  "look_feel": {
+    "schema_version": 1,
+    "preset": "glass-blur",
+    "preset_revision": 9,
+    "customized": {
+      "animations": false,
+      "bar": false,
+      "shell": false,
+      "terminal": false,
+      "window": false
+    }
+  },
+  "terminal": {
+    "schema_version": 1,
+    "mode": "preset",
+    "opacity": 0.82,
+    "cell_mode": "painted"
+  }
+}
