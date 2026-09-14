@@ -4,7 +4,7 @@
   "theme_name": "Vibrant Green",
   "source_theme": "Vibrant Green",
   "source_kind": "user",
-  "source_fingerprint": "e2a58086035e72b774a701aae79493b4f4ee9453c737ecd6ae673353b7109883",
+  "source_fingerprint": "897cbaf87b135b24e7c2ca3c22070885ddafff5552b0a61a9c215468010c649c",
   "managed_scopes": [
     "shell-bar",
     "window-motion"
@@ -17,7 +17,7 @@
     "Background": "#040600",
     "DarkBackground": "#020100",
     "DarkerBackground": "#000000",
-    "LighterBackground": "#181202",
+    "LighterBackground": "#151a02",
     "Foreground": "#cde1aa",
     "DarkForeground": "#728157",
     "LightForeground": "#e4f2cc",
