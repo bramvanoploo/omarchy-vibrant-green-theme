@@ -8,12 +8,12 @@
     "surface": {
       "treatment": "glass",
       "role": "background",
-      "opacity": 0.72,
-      "blur": 1,
-      "border_role": "foreground",
-      "border_opacity": 0.3,
+      "opacity": 0.82,
+      "blur": 12,
+      "border_role": "accent",
+      "border_opacity": 0.35,
       "border_width": 1,
-      "shadow": "raised"
+      "shadow": "floating"
     },
     "geometry": {
       "density": "compact",
@@ -52,18 +52,18 @@
       }
     },
     "workspace": {
-      "mode": "native"
+      "mode": "dots"
     },
     "clock": {
-      "style": "lcd"
+      "style": "native"
     },
     "dock": {
       "closed": "ellipsis",
       "glyph": "✦"
     },
     "motion": {
-      "preset": "native",
-      "duration_ms": 180,
+      "preset": "smooth",
+      "duration_ms": 220,
       "easing": "out_cubic"
     }
   },
@@ -74,7 +74,7 @@
     "topology": false,
     "behavior": true,
     "regions": true,
-    "workspace": true,
-    "clock": false
+    "workspace": false,
+    "clock": true
   }
 }

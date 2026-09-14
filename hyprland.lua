@@ -17,8 +17,8 @@ hl.config({
   },
   group = { col = { border_active = active_border_color, border_inactive = inactive_border_color }, },
   decoration = {
-    active_opacity = 0.95,
-    inactive_opacity = 0.95,
+    active_opacity = 0.96,
+    inactive_opacity = 0.96,
     shadow = { enabled = true, render_power = 3, range = 18, color = "rgba(000000e6)", color_inactive = "rgba(000000b8)" },
     dim_inactive = true, dim_strength = 0.34,
     blur = { enabled = true, size = 10, passes = 2, ignore_opacity = true, new_optimizations = true },
@@ -35,14 +35,14 @@ hl.layer_rule({ name = "omagen-live-canvas-backdrop-blur", match = { namespace =
 -- Blur translucent native Quickshell surfaces for the Shell Glass preset.
 hl.layer_rule({ name = "omagen-shell-glass-backdrop-blur", match = { namespace = "^((omarchy-(bar|menu|image-selector|emojis|clipboard|keyboard-panel|notifications|osd|polkit|lock-preview|network-qr|reminders))|omagen-shell-demo|omagen-live-canvas)$" }, blur = true, blur_popups = true, ignore_alpha = 0.20 })
 hl.curve("omagenPrecision", { type = "bezier", points = { { 0.22, 0.78 }, { 0.18, 1 } } })
-hl.animation({ leaf = "windows", enabled = true, speed = 1, bezier = "omagenPrecision" })
-hl.animation({ leaf = "windowsIn", enabled = true, speed = 1, bezier = "omagenPrecision", style = "slide" })
+hl.animation({ leaf = "windows", enabled = true, speed = 5, bezier = "omagenPrecision" })
+hl.animation({ leaf = "windowsIn", enabled = true, speed = 5, bezier = "omagenPrecision", style = "slide" })
 hl.animation({ leaf = "windowsOut", enabled = true, speed = 0.8, bezier = "omagenPrecision", style = "slide" })
 hl.animation({ leaf = "fadeIn", enabled = true, speed = 0.8, bezier = "omagenPrecision" })
 hl.animation({ leaf = "fadeOut", enabled = true, speed = 0.6, bezier = "omagenPrecision" })
 hl.animation({ leaf = "windowsMove", enabled = true, speed = 3.4, bezier = "omagenPrecision" })
 hl.animation({ leaf = "workspaces", enabled = true, speed = 1.2, bezier = "omagenPrecision", style = "slidefade 28%" })
-hl.animation({ leaf = "specialWorkspace", enabled = true, speed = 1.2, bezier = "omagenPrecision", style = "slidefade" })
+hl.animation({ leaf = "specialWorkspace", enabled = true, speed = 1.2, bezier = "omagenPrecision", style = "slide" })
 hl.animation({ leaf = "border", enabled = true, speed = 2.4, bezier = "omagenPrecision" })
 hl.animation({ leaf = "fadeSwitch", enabled = true, speed = 2.4, bezier = "omagenPrecision" })
 hl.animation({ leaf = "fadeShadow", enabled = true, speed = 2.4, bezier = "omagenPrecision" })

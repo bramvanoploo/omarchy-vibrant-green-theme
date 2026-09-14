@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "kind": "omagen.theme.recipe",
-  "theme_name": "Vibrant Green",
-  "source_theme": "Vibrant Green",
+  "theme_name": "Modern Green",
+  "source_theme": "Modern Green",
   "source_kind": "user",
-  "source_fingerprint": "897cbaf87b135b24e7c2ca3c22070885ddafff5552b0a61a9c215468010c649c",
+  "source_fingerprint": "27911f3a47b5f52aa9781f8b45713fe26d9bc15e7a948500ff78e749a224dcf0",
   "managed_scopes": [
     "shell-bar",
     "window-motion"
@@ -12,7 +12,7 @@
   "palette": {
     "Mode": "dark",
     "Accent": "#9ac400",
-    "Selection": "#212d00",
+    "Selection": "#324403",
     "Muted": "#5d5b55",
     "Background": "#040600",
     "DarkBackground": "#020100",
@@ -52,7 +52,7 @@
     "shape": "native",
     "spacing": "compact",
     "depth": "shadow",
-    "window_opacity": 95,
+    "window_opacity": 96,
     "active_style": "frosted_light",
     "inactive_style": "frosted_rich"
   },
@@ -86,12 +86,12 @@
       "surface": {
         "treatment": "glass",
         "role": "background",
-        "opacity": 0.72,
-        "blur": 1,
-        "border_role": "foreground",
-        "border_opacity": 0.3,
+        "opacity": 0.82,
+        "blur": 12,
+        "border_role": "accent",
+        "border_opacity": 0.35,
         "border_width": 1,
-        "shadow": "raised"
+        "shadow": "floating"
       },
       "geometry": {
         "density": "compact",
@@ -130,18 +130,18 @@
         }
       },
       "workspace": {
-        "mode": "native"
+        "mode": "dots"
       },
       "clock": {
-        "style": "lcd"
+        "style": "native"
       },
       "dock": {
         "closed": "ellipsis",
         "glyph": "✦"
       },
       "motion": {
-        "preset": "native",
-        "duration_ms": 180,
+        "preset": "smooth",
+        "duration_ms": 220,
         "easing": "out_cubic"
       }
     }
@@ -155,11 +155,11 @@
     "window_move": "smooth",
     "window_amount": 76,
     "window_opacity": 100,
-    "window_speed": 1,
+    "window_speed": 5,
     "workspace": "slidefade",
     "workspace_axis": "horizontal",
     "workspace_travel": 28,
-    "special_workspace": "slidefade",
+    "special_workspace": "slide",
     "focus": "smooth",
     "layers": "slide",
     "curve": "precision",
@@ -173,11 +173,11 @@
     "preset": "glass-blur",
     "preset_revision": 9,
     "customized": {
-      "animations": false,
-      "bar": false,
+      "animations": true,
+      "bar": true,
       "shell": false,
       "terminal": false,
-      "window": false
+      "window": true
     }
   },
   "terminal": {

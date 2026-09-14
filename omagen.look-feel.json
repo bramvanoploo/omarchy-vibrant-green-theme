@@ -3,10 +3,10 @@
   "preset": "glass-blur",
   "preset_revision": 9,
   "customized": {
-    "animations": false,
-    "bar": false,
+    "animations": true,
+    "bar": true,
     "shell": false,
     "terminal": false,
-    "window": false
+    "window": true
   }
 }
